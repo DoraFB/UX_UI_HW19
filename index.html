@@ -11,47 +11,49 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Yeseva+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="navigation">
+    <header class="navigagtion">
         <div class="inline-block">
             <img id="DBlogo1" src="./images/DBLogo1.png">
             </div>
     <nav class="inline-block">
         <ul>
-            <li class="inline-block">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </li>
+            <li class="inline-block"><a href="#">Home</a></li>
+                <li class="inline-block"><a href="#mySkills-container">My Skills</a></li>
+                <li class="inline-block"><a href="#myWork-Grid-container">My Work</a></li>
+    
         </ul>
     </nav>
+    </header>
 
     
             <section class="herolmg">
-            <div class="content">
+            <div class="content inline-block">
                 <img id="dorab" src="./images/DoraB1.png">
+            </div>
+            <div class="inline-block">
                 <p>Eager and passionate UX/UI designer with a background in management and knowledge of graphic design. Looking for next role within a web/app or product design space to utilize my design UX/UI skills and enhance user experience.</p>
-                <button>Download Resume</button>
+                <button class="button">Download Resume</button>
             </div>
         </section>
         <!-- My Skills section coded using CSS flex -->
-        <section id="mySkills">
+        <section id="mySkills-container" class="mySkills">
             <h1>My Skills</h1>
             <div class="flex-container">
 
                 <div class="skillCard1">
-                <img id="persona" src="./images/nonprofit Persona Graph (3).png">
+                <img id="persona" src="./images/Persona.png">
                 <h3>Persona Creation</h3>
                 <p>Creating a persona from gathered research is something I envoy, the ability to see the binning of a problem through the persona can communicate what other research needs to be done.</p>
                 </div>
 
                 <div class="skillCard2">
-                <img id="LoFiSerenityNow" src="./images/LoFiSerenityNow.png">
+                <img id="LoFiSerenityNow" src="./images/wireframing.png">
                 <h3>Wireframing</h3>
                 <p>The first few step to creating something new, something different, something that incorporates the research findings is very exciting.</p>
                 </div>
 
                 <div class="skillCard3">
-                <img id="Ti2TShome" src="./images/Ti2tShome2png.png">
+                <img id="Ti2TShome" src="./images/userexperience.png">
                 <h3>User Experience Interviewing</h3>
                 <p>User Experience Interviewing I find fascinating, because it gives you a great insight as to how people think and how they follow the site we are testing. The results are always surprising to me.</p>
                 </div>
@@ -59,7 +61,7 @@
 
         </section>
         <!-- My Work section coded using CSS flex -->
-        <section id="myWork-Grid">
+        <section id="myWork-Grid-container" class="myWork-Grid">
             <h1>My Work</h1>
             <div class="project-card">
                 <h1>Taking it to the Streets</h1>
@@ -88,6 +90,11 @@
     </footer>
         <div class="inline-block">
         </div>
-    </nav>    
+    </nav> 
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

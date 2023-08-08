@@ -1,36 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     background-color: whitesmoke;
     font-size: medium;
     font-family: 'Montserrat', sans-serif;
 }
-.ul {
-    list-style-type: none;
+ul {
+   /* list-style-type: none;
     margin: 60;
-    padding: 0;
+    padding: 0;*/
   }
   
-  li {
-    display: inline;
-  }
+  /*li {
+    display: inline; 
+  }*/
 .inline-block {
     display: inline-block;
-    text-decoration-line:top;
+    vertical-align: middle;
+    outline: 1px solid red;
 }
-.logo {
-    width: 23%;
-    padding: 1%;
+#DBlogo1 {
+    width: 75%;
+    padding: 5%;
     text-align: center; 
+    /*outline: 1px solid red;*/
+}
+button {
+  background-color: #3847D3; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 nav {
     width: 53%;
     padding: 1%;
+    /*outline: 1px solid red;*/
 }
-.ul {
-    width: 50%;
+ul {
+    /*width: 100%;
     margin-left: auto;
     list-style-type: none;
     margin: 0;
     padding: 90;
+    outline: 1px solid red;*/
 }
 .heroimg {
     height: 600px;
@@ -43,36 +60,55 @@ nav {
 
 
 ul li {
-padding: 15px;
+/*padding: 15px;
 bottom: 0;
 left: 0;
 width: 900px;
-height: 30px;
+height: 30px;*/
 }
 
 .skillCard1 {
     display: flex;
     background-color: #23A455;
     height: auto;
-    width: auto;
+    width: 900px;
     padding: 15px;
     justify-content: space-between;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+
+ 
+ 
+  font-size: 16px;
 }
 .skillCard2 {
     display: flex;
     background-color: #23A455;
     height: auto;
-    width: auto;
+    width: 900px;
     padding: 15px;
     justify-content: space-between;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  
+  
+  font-size: 16px;
 }
 .skillCard3 {
     display: flex;
     background-color: #23A455;
     height: auto;
-    width: auto;
+    width: 900px;
     padding: 15px;
     justify-content: space-between;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  font-size: 16px;
 }
 * {
     box-sizing: border-box;
@@ -151,7 +187,7 @@ footer ul {
     padding: 15px;
 }
 #DBlogo1 {
-    height: 130px;
+    height: 100px;
 }
 #linkedin {
     height: 20px;
