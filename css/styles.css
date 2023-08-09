@@ -18,7 +18,7 @@ ul {
 .inline-block {
     display: inline-block;
     vertical-align: middle;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 #DBlogo1 {
     width: 75%;
@@ -47,7 +47,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 90;
-    outline: 1px solid red;*/
+    /*outline: 1px solid red;*/
 }
 .heroimg {
     height: 600px;
